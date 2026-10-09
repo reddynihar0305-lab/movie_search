@@ -1,0 +1,28 @@
+.search_input{
+    width:300px;
+    height:20px;
+    border-radius: 10px;
+    border: none;
+    outline:none;
+    padding:3px;
+    background-color: rgb(198, 211, 222);
+    margin:15px;
+}
+
+.search_btn{
+    width:70px;
+    height:28px;
+    border-radius: 10px;
+    background-color: rgb(137, 162, 184);
+}
+
+.search_btn:hover{
+    background-color: rgb(94, 134, 169);
+}
+
+.movies_grid{
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap:20px;
+}
